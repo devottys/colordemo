@@ -16,6 +16,11 @@
         <link rel="stylesheet" type="text/css" href="/custom.css">
         {head}
 
+<script>
+    window.addEventListener("load",function() {{
+        document.body.style.background = window.location.hash.substr(1);
+        }});
+</script>
     </head>
     <body>
      <section id="nav">
