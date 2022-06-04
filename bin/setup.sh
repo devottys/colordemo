@@ -5,4 +5,4 @@ wget https://github.com/jgm/pandoc/releases/download/2.11.4/pandoc-2.11.4-1-amd6
 dpkg -i pandoc-2.11.4-1-amd64.deb
 
 # ensure Skeleton is cloned https://github.com/dhg/Skeleton
-git submodule --init --recursive
+git submodule update --init --recursive
